@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { Container, Inner, Item, Pane, Title, SubTitle, Image } from './styles/JumbotronStyle';
 
 function Jumbotron({ children, direction= 'row', ...restProps}) {
@@ -33,29 +32,3 @@ Jumbotron.Pane = function JumbotronPane({ children, ...restProps }){
 Jumbotron.Image = function JumbotronImage({ ...restProps }){
   return <Image {...restProps} />
 }
-
-
-Jumbotron.propTypes = {
-  children: PropTypes.node.isRequired,
-  direction: PropTypes.node.isRequired,
-};
-
-Jumbotron.Title.propTypes = {
-  children: PropTypes.node.isRequired,
-};
-
-Jumbotron.SubTitle.propTypes = {
-  children: PropTypes.node.isRequired,
-};
-
-Jumbotron.Image.propTypes = {
-  children: PropTypes.node.isRequired,
-};
-
-Jumbotron.Pane.propTypes = {
-  children: PropTypes.node.isRequired,
-};
-
-Jumbotron.Container.propTypes = {
-  children: PropTypes.node.isRequired,
-};
