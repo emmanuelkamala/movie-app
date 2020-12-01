@@ -28,3 +28,26 @@ export const Row = styled.div`
   }
 `
 
+export const Link = styled.a`
+  color: #757575;
+  margin-bottom: 20px;
+  font-size: 13px;
+  text-decoration: none;
+`
+
+export const Title = styled.p`
+  color: #757575;
+  font-size: 16px;
+  margin-bottom: 40px;
+`
+
+export const Text = styled.p`
+  color: #757575;
+  font-size: 13px;
+  margin-bottom: 40px;
+`
+
+export const Break = styled.p`
+  flex-basis: 100%;
+  height: 0;
+`
