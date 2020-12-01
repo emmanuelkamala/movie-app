@@ -2,9 +2,10 @@ import styled from 'styled-components/macro';
 
 export const Item = styled.div`
   display: flex;
-  border: 8px solid #222;
+  border-bottom: 8px solid #222;
   padding: 50px 5%;
   overflow: hidden;
+  color: whitesmoke;
 `
 
 export const Inner = styled.h1`
