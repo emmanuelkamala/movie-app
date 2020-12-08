@@ -11,6 +11,9 @@ export const Inner = styled.div`
 export const Frame = styled.div`
 
 `
+export const Title = styled.h1`
+
+`
 
 export const Item = styled.div`
 
