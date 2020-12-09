@@ -4,10 +4,6 @@ This is a clone of the netflix app. It includes authentication and also details 
 
 ![screenshot](./src/images/homepage.png)<br />
 
-![screenshot](./src/images/homepage2.png)<br />
-
-![screenshot](./src/images/homepage3.png)
-
 ## Built With
 
 - CSS
