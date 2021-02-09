@@ -1,6 +1,6 @@
 # Project: Movie App
 
-This is a clone of the netflix app. It includes authentication and also details of different movies and series.
+This is a clone of the netflix app. It includes authentication and also details for different movies and series.
 
 ![screenshot](./src/images/homepage.png)<br />
 
