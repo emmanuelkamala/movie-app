@@ -11,7 +11,6 @@ This is a clone of the netflix app. It includes authentication and also details 
 - Styled components
 - Redux
 - React Router
-- Firebase
 
 
 ## Live Version

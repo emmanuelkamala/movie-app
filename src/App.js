@@ -1,13 +1,12 @@
 import React from 'react';
-import { FooterContainer } from './containers/footer';
-import { JumbotronContainer } from './containers/Jumbotron';
+import Home from "./pages/home/Home";
+import './app.scss';
 
 function App() {
   return (
-    <>
-      <JumbotronContainer />
-      <FooterContainer />
-    </>
+    <div>
+     <Home />
+    </div>
   );
 }
 
