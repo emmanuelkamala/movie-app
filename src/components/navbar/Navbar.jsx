@@ -8,12 +8,13 @@ function Navbar() {
       <div className="container">
         <div className="left">
           <img src="./images/logo.png" alt="logo" />
+          <span>Homepage</span>
+          <span>Series</span>
+          <span>Movies</span>
+          <span>New and Popular</span>
+          <span>My List</span>
         </div>
-        <span>Homepage</span>
-        <span>Series</span>
-        <span>Movies</span>
-        <span>New and Popular</span>
-        <span>My List</span>
+       
         <div className="right">
           <Search />
           <span>KID</span>
