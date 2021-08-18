@@ -19,14 +19,14 @@ function ListItem({index}) {
             <video src={trailer} autoPlay={true} loop />
             <div className="itemsInfo">
               <div className="icons">
-                <PlayArrow />
-                <Add />
-                <ThumbUpAltOutlined />
-                <ThumbDownOutlined />
+                <PlayArrow className="icon" />
+                <Add className="icon" />
+                <ThumbUpAltOutlined className="icon" />
+                <ThumbDownOutlined className="icon" />
               </div>
               <div className="itemInfoTop">
                 <span>1 hour 14 mins</span>
-                <span>+16</span>
+                <span className="limit">+16</span>
                 <span>2020</span>
               </div>
               <div className="desc">
