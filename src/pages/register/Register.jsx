@@ -6,8 +6,10 @@ function Register() {
   return (
     <div className="register" style={{backgroundImage: "url('./images/misc/home-bg.jpg')"}}>
       <div className="top">
-        <img src="./images/logo.png" alt="register" className="logo" />
-        <button className="loginButton">Sign In</button>
+        <div className="wrapper">
+          <img src="./images/logo.png" alt="register" className="logo" />
+          <button className="loginButton">Sign In</button>
+        </div>
       </div>
       <div className="container">
          <h1 className="infoHeading">Unlimited movies, TV shows, and more.</h1>
