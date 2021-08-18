@@ -8,6 +8,26 @@
     object-fit: cover;
   }
 
+  .category {
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    color: #fff;
+
+    select {
+      cursor: pointer;
+      background-color: var(--main-color);
+      border: 1px solid #fff;
+      color: #fff;
+      margin-left: 20px;
+      padding: 5px;
+    }
+  }
+
   .info {
     width: 35%;
     position: absolute;
