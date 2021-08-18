@@ -54,13 +54,7 @@ function List() {
         </div>
         <ArrowForwardIosOutlined className="sliderArrow right" onClick={()=> handleClick("right")} />
       </div>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, autem inventore labore laudantium assumenda doloremque. Sequi facere dolorem, ipsa maiores molestias deserunt hic quisquam, accusamus officiis, perspiciatis ab! Iste, porro.
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime placeat obcaecati necessitatibus recusandae quidem veniam ea dignissimos rerum dolorum asperiores, consequatur excepturi fugit amet molestiae commodi distinctio repellat praesentium natus!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint accusantium error molestias, enim ipsa earum neque doloribus, minima minus a odio impedit inventore perferendis eos nobis architecto quasi repellendus dolorem.
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex ad modi quisquam deserunt, perspiciatis odio quaerat! Amet aliquam perferendis veritatis totam, aliquid eaque quia aperiam tempora excepturi asperiores quidem sed.
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, natus illum fuga vel autem corrupti, quas illo eius minima porro excepturi voluptatum esse odio suscipit? Assumenda vel provident voluptas excepturi.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui atque ratione nostrum dolores sunt officia voluptates distinctio id quis deleniti ea praesentium cum, porro ullam pariatur fugit! Minus, nobis provident?
-    </div>
+     </div>
   )
 }
 
