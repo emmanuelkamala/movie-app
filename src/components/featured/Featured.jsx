@@ -44,13 +44,6 @@ function Featured({ type }) {
             <span>More</span>
           </button>
         </div>
-        {/* <span className="infoHeading">Unlimited movies, TV shows, and more.</span>
-        <span className="infoDesc">Watch anywhere. Cancel anytime.</span>
-        <span className="infoAction">Ready to watch? Enter your email to create or restart your membership.</span>
-        <form action="!#" className="infoForm">
-          <input type="email" placeholder="Email address" />
-          <button className="infoButton"><span className="infoButtonTitle">Get Started</span><ArrowForwardOutlined /></button>
-        </form> */}
       </div>
     </div>
   )

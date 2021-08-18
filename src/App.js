@@ -1,13 +1,15 @@
 import React from 'react';
 // import Home from "./pages/home/Home";
 import './app.scss';
-import Watch from './pages/watch/Watch';
+import Register from './pages/register/Register';
+// import Watch from './pages/watch/Watch';
 
 function App() {
   return (
     <div>
-     {/* <Home /> */}
-     <Watch />
+     {/* <Home /> 
+     <Watch /> */}
+     <Register />
     </div>
   );
 }
