@@ -2,9 +2,9 @@
 
 This is a clone of the netflix app. It includes authentication and also details for different movies and series.
 
-![screenshot](./src/images/1.png)<br />
-![screenshot](./src/images/2.png)<br />
-![screenshot](./src/images/3.png)<br />
+![screenshot](./public/images/1.png)<br />
+![screenshot](./public/images/2.png)<br />
+![screenshot](./public/images/3.png)<br />
 
 ## Built With
 
