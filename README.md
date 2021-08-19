@@ -2,15 +2,17 @@
 
 This is a clone of the netflix app. It includes authentication and also details for different movies and series.
 
-![screenshot](./src/images/homepage.png)<br />
+![screenshot](./src/images/1.png)<br />
+![screenshot](./src/images/2.png)<br />
+![screenshot](./src/images/3.png)<br />
 
 ## Built With
 
-- CSS
+- SASS
 - ReactJS
-- Styled components
 - Redux
 - React Router
+- NodeJS
 
 
 ## Live Version
