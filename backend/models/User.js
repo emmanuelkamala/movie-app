@@ -4,13 +4,13 @@ const UserSchema = new mongoose.Schema({
   username: {
     type: String,
     required: true,
-    unique
+    unique: true
   },
 
   email: {
     type: String,
     required: true,
-    unique
+    unique: true
   },
 
   password: {
@@ -22,7 +22,7 @@ const UserSchema = new mongoose.Schema({
     type: String,
     default: ''
   },
-  
+
   isAdmin: {
     type: Boolean,
     default: false
