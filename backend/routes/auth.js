@@ -34,7 +34,8 @@ authRouter.post('/login', async(req, res) => {
     if (originalPassword !== req.body.password){
       return res.status(404).json("Wrong password or username")
     } else {
-      return res.status(200).json(user)
+      const { password, ...info } = user._doc;
+      return res.status(200).json(info)
     }
   } catch (error) {
     res.status(500).json({ error: error.message })
