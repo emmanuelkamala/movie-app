@@ -12,7 +12,7 @@ authRouter.post('/register', async (req, res) => {
   })
 
   try {
-    const user = newUser.save();
+    const user = await newUser.save();
     res.status(201).json({ user, message: "User saved successfully"});
   } catch (error) {
     res.status(500).json({ error: error.message })
@@ -20,3 +20,4 @@ authRouter.post('/register', async (req, res) => {
 })
 
 export default authRouter;
+ 
