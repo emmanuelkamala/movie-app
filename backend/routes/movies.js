@@ -35,4 +35,28 @@ movieRouter.put('/:id', verify, async (req, res) => {
   }
 })
 
+// Delete
+movieRouter.delete('/:id', verify, async (req, res) => {
+  if (req.user.isAdmin){
+    try {
+     await Movie.findByIdAndDelete(req.params.id);
+      res.status(200).json("Movie has been successfully deleted");
+    } catch (error) {
+      res.status(500).json(error)
+    }
+  } else {
+    res.status(403).json("You are not allowed");
+  }
+})
+
+// Get Movie
+movieRouter.get('/:id', verify, async (req, res) => {
+    try {
+     const movie = await Movie.findById(req.params.id);
+      res.status(200).json(movie);
+    } catch (error) {
+      res.status(500).json(error)
+    }
+})
+
 export default movieRouter;
