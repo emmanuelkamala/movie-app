@@ -22,15 +22,15 @@ Coming soon...
 
 Open your terminal or text editor and use next command
 
-        git clone https://github.com/emmanuelkamala/mapping-places.git
+        git clone https://github.com/emmanuelkamala/movie-app.git
 
         cd backend
-        ### run 'yarn install' or 'npm install' to install dependencies
-        ### yarn start
+        ### run 'npm install' to install dependencies
+        ### npm start
 
         cd frontend
-        ### run 'yarn install' or 'npm install' to install dependencies
-        ### yarn start
+        ### run 'npm install' to install dependencies
+        ### npm start
 
 
 ## Opening the app
