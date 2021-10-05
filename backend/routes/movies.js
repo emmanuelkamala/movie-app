@@ -59,4 +59,15 @@ movieRouter.get('/:id', verify, async (req, res) => {
     }
 })
 
+// Get Random
+movieRouter.get('/random', verify, async (req, res) => {
+  const type = req.query.type;
+    try {
+     if (type ===)
+    } catch (error) {
+      res.status(500).json(error)
+    }
+
+})
+
 export default movieRouter;
